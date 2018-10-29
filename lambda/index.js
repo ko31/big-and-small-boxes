@@ -1,11 +1,11 @@
 const Alexa = require('ask-sdk-core');
 
 const SKILL_NAME = "大きい箱小さい箱";
-const HELP_MESSAGE = "あなたに、大きい箱か小さい箱のどちらかをあげましょう。さあ、どちらか好きな方を選んでください";
+const HELP_MESSAGE = 'あなたに、大きい<sub alias="はこ">箱</sub>か小さい箱のどちらかをあげましょう。さあ、どちらか好きな方を選んでください';
 const HELP_REPROMPT = "大きい箱と小さい箱のどちらがいいですか？";
 const FALLBACK_MESSAGE = "どちらかよくわかりませんでした。大きい箱と小さい箱のどちらがいいですか？";
 const FALLBACK_REPROMPT = "大きい箱か小さい箱のどちらがいいですか？";
-const STOP_MESSAGE = "さようなら";
+const STOP_MESSAGE = '<say-as interpret-as="interjection">またいつでもどうぞ</say-as>';
 const ERROR_MESSAGE = "ごめんなさい。わかりませんでした";
 
 const data = [
@@ -32,6 +32,11 @@ const data = [
     ["好きなだけ使えるお金", "好きなだけ使える時間"],
     ["クリームを塗り忘れたケーキ", "スポンジを入れ忘れたケーキ"],
     ["ワクワクする未来", "楽しかった思い出"],
+    ["ひつまぶし", "ひまつぶし"],
+    ["つぶあん", "こしあん"],
+    ["ディズニーランドのチケット", "ディズニーシーのチケット"],
+    ["ほんだし", "ふんどし"],
+    ["大当たり", "大赤字"],
     ["ドラえもんのポケット", "古着のポケット"]
 ];
 
