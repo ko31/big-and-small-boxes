@@ -1,7 +1,7 @@
 const Alexa = require('ask-sdk-core');
 
-const SKILL_NAME = "大きい箱と小さい箱";
-const HELP_MESSAGE = "あなたに大きい箱か小さい箱のどちらかをあげましょう。さあ、どちらか好きな方を選んでください";
+const SKILL_NAME = "大きい箱小さい箱";
+const HELP_MESSAGE = "あなたに、大きい箱か小さい箱のどちらかをあげましょう。さあ、どちらか好きな方を選んでください";
 const HELP_REPROMPT = "大きい箱と小さい箱のどちらがいいですか？";
 const FALLBACK_MESSAGE = "どちらかよくわかりませんでした。大きい箱と小さい箱のどちらがいいですか？";
 const FALLBACK_REPROMPT = "大きい箱か小さい箱のどちらがいいですか？";
